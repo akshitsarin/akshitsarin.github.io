@@ -1,6 +1,55 @@
 body {
+  color: rgb(56, 56, 56);
   max-width: 100%;
+  background-color: #ffdcdc !important;
+  background-image:url('https://akshit-sarin.s3.ap-south-1.amazonaws.com/bg-layers.png') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
   overflow-x: hidden;
 	overflow-y: scroll;
 	font-family: 'Quicksand', sans-serif;
+  background-attachment: fixed;
+}
+
+#profile_img {
+  display: block; 
+  width:70%; 
+  height: auto; 
+  min-width: 166px; 
+  margin-left: auto; 
+  margin-right:auto; 
+  margin-top: -2em;
+}
+
+hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em !important;
+}
+
+.header, .footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 2em;
+  background-color: rgb(32, 32, 32);
+  color: rgb(161, 161, 161);
+  text-align: center;
+}
+
+.header {
+  top: 0;
+}
+
+.footer {
+  bottom: 0;
+}
+
+.h_f_text {
+  margin-top: 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
 }
